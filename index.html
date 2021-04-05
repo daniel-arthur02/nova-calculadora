@@ -16,8 +16,8 @@
                 </form>
                 <table>
                     <td>
-                        <button title="Limpar" type="button" class="button" onclick='c()'><i class="fab fa-cuttlefish"></i></button>
-                        <button title="Apagar" type="button" class="button" onclick="back()"><i class="fas fa-less-than"></i></button>
+                        <button title="Limpar" type="button" class="button" onclick='c()'><i class="fab fa-cuttlefish" id="c"></i></button>
+                        <button title="Apagar" type="button" class="button" onclick="back()"><i class="fas fa-backspace" id="clear"></i></button>
                         <button title="Dividir" type="button" class="button" onclick="insert('/')"><i class="fas fa-divide"></i></button>
                         <button title="Multiplicar" type="button" class="button" onclick="insert('*')"><i class="fas fa-times"></i></button>
                     </td>
@@ -42,7 +42,7 @@
                             <input type="button" class="button" onclick="insert(1)" value="1">
                             <input type="button" class="button" onclick="insert(2)" value="2">
                             <input type="button" class="button" onclick="insert(3)" value="3">
-                            <button title="Resultado" type="button" class="button" onclick="equal()"><i class="fas fa-equals"></i></button>
+                            <button title="Resultado" type="button" class="button" onclick="equal()"><i class="fas fa-equals" id="igual"></i></button>
                         </td>
                     </tr>
                     <tr>
