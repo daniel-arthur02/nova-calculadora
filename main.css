@@ -21,3 +21,15 @@
     width: 211px;
     height: 30px;
 }
+body{
+    margin-left: 500px;
+    margin-right: 620px;
+    margin-top: 25px;
+    align-items: center;
+    color: rgb(192, 38, 17);
+    border-style: double;
+    background-color: rgb(53, 167, 167);
+}
+button{
+    color: rgb(255, 0, 0);
+}
